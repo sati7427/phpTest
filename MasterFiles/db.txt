@@ -1,0 +1,3 @@
+
+CREATE TABLE `christdb`.`userdata` ( `User_id` INT NOT NULL AUTO_INCREMENT , `Email` VARCHAR(150) NOT NULL , `Password` VARCHAR(255) NOT NULL , `FirstName` VARCHAR(100) NULL , `LastName` VARCHAR(50) NULL , `Mobile` VARCHAR(20) NULL , `Address` VARCHAR(255) NULL , `City` VARCHAR(50) NULL , `State` VARCHAR(50) NULL , `PinCode` VARCHAR(10) NULL , `Photo` VARCHAR(255) NULL , `Status` VARCHAR(10) NULL , `LastLogin` DATE NULL , `CreatedDate` DATE NULL , PRIMARY KEY (`User_id`)) ENGINE = InnoDB;
+
